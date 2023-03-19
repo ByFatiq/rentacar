@@ -1,0 +1,19 @@
+
+
+<div class="accordion" id="accordionPanelsStayOpenColors">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOneColors">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOneColors" aria-expanded="true" aria-controls="panelsStayOpen-collapseOneColors">
+         Araç Renkleri
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOneColors" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-collapseOneColors">
+        <div class="accordion-body">
+         
+     <li class="list-group-item"  *ngFor="let color of colors">{{ color.colorName }}</li>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
